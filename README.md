@@ -1,6 +1,6 @@
 # Release crash
 
-Minimal project demonstrating a runtime crash when running the project build in `release` mode. It does _not_ crash when run in `debug` mode.
+Minimal project demonstrating a runtime crash when running the project built in `release` mode. It does _not_ crash when run in `debug` mode.
 
 This is a minimal reproducer of the issue initially discovered here: https://github.com/SwiftPackageIndex/SwiftPackageIndex-Server/issues/3021
 
