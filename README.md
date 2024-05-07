@@ -18,6 +18,10 @@ In a terminal hit the endpoint:
 curl -sL -w "%{http_code}" -o /dev/null http://localhost:8080/crash/1234567890
 ```
 
+### Compiler versions tested
+
+- 5.10 on macOS (via Xcode 15.3.0)
+
 ### A few observations
 
 - The length of the `archive` parameter is relevant. It only crashes if it's >= 10 characters long.
